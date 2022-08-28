@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 
 import os
 import os
-import django_heroku
+# import django_heroku
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -151,4 +151,4 @@ EMAIL_RECEIVING_USER = ['to@gmail.com'] # email on which you will receive messag
 
 # STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 # Activate Django-Heroku.
-django_heroku.settings(locals())
+# django_heroku.settings(locals())
