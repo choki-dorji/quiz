@@ -152,3 +152,4 @@ EMAIL_RECEIVING_USER = ['to@gmail.com'] # email on which you will receive messag
 # STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 # Activate Django-Heroku.
 # django_heroku.settings(locals())
+heroku config:set DISABLE_COLLECTSTATIC=1
